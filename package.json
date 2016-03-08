@@ -1,0 +1,30 @@
+{
+  "name": "toy-problems",
+  "version": "1.0.0",
+  "description": "Playing with data structures",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimgong92/ds-play.git"
+  },
+  "author": "Jimmy Gong <gong.jim@gmail.com> (http://jimmyg.xyz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimgong92/ds-play/issues"
+  },
+  "homepage": "https://github.com/jimgong92/ds-play#readme",
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.14"
+  }
+}
