@@ -1,10 +1,12 @@
-import BST from './lib/BinarySearchTree';
+import BinarySearchTree from './lib/BinarySearchTree';
 import util from './lib/util';
 
 const lib = {
-  BST: BST,
-  util: util 
+  BinarySearchTree: BinarySearchTree,
+  util: util,
 };
+
+// For testing in browser
 window.lib = lib;
 
 export default lib;
