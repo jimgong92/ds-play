@@ -6,7 +6,4 @@ const lib = {
   util: util,
 };
 
-// For testing in browser
-window.lib = lib;
-
 export default lib;
