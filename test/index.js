@@ -1,4 +1,5 @@
-import BSTSpec from './BinarySearchTreeSpec';
+import BSTSpec from './BinarySearchTree';
+
 describe('Data Structures', () => {
   BSTSpec();
 });
