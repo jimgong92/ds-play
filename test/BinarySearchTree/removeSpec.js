@@ -27,7 +27,7 @@ function spec(suite) {
       testBST.remove(5);
       expect(testBST.value).to.equal(3);
       expect(testBST.frequency).to.equal(2);
-      expect(testBST.left).to.be.null;
+      expect(testBST.left.value).to.be.null;
       expect(testBST.right.value).to.equal(7);
       done(); 
     });
@@ -35,7 +35,7 @@ function spec(suite) {
       const testBST = new BinarySearchTree([5, 7, 7, 7]);
       testBST.remove(5);
       expect(testBST.value).to.equal(7);
-      expect(testBST.right).to.be.null;
+      expect(testBST.right.value).to.be.null;
       expect(testBST.frequency).to.equal(3);
       done(); 
     });
@@ -57,7 +57,7 @@ function spec(suite) {
       expect(testBST.right.left.value).to.equal(8);
       expect(testBST.right.left.right.value).to.equal(9);
       expect(testBST.right.right.value).to.equal(12);
-      expect(testBST.left).to.be.null;
+      expect(testBST.left.value).to.be.null;
       done();
     });
   });
